@@ -1,0 +1,4 @@
+Upute za pokretanje projekta
+
+Projekt sadrži datoteku requirements.txt u kojoj se nalaze svi potrebni moduli za pokretanje simulacije. Prvi korak je kreirati i pokrenuti virtualno okruženje (python3 -m venv .venv i zatim source .venv/bin/activate). Idući korak je skidanje svih modula i ovisnosti iz requirements.txt sa naredbom pip install -r requirements.txt. U drugom terminalu (također u rootu projekta i s aktiviranim venv-om) treba pokrenuti SPADE server sa naredbom spade run. Zatim se simulacija pokreće sa naredbom python3 -m sim.main 
+
